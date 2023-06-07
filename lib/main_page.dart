@@ -51,12 +51,12 @@ class _MainPageState extends State<MainPage> {
 
   void showSearchPage() async {
     var result = showModalBottomSheet(
-      backgroundColor: Colors.transparent,
+      backgroundColor: Colors.pink,
       context: context,
       builder: (context) => Container(
         padding: EdgeInsets.all(10),
         decoration: BoxDecoration(
-            color: Colors.white,
+            color: Colors.pink,
             borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(10), topRight: Radius.circular(10))),
         height: 200,
